@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  allowedDevOrigins: [
+    '3000-i8brwzeg7dh2i50yv0vym-3c0cfc40.us1.manus.computer',
+  ],
   typescript: {
     // 关闭构建期跳过类型检查：迁移到 Cursor 前暴露真实类型问题。
     ignoreBuildErrors: false,
